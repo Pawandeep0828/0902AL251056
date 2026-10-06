@@ -1,0 +1,18 @@
+QUESTION 2: MERGE TWO SORTED LINKED LISTS
+
+L1: 10 -> 30 -> 50 -> 70
+L2: 20 -> 25 -> 40 -> 80
+
+ALGORITHM:
+
+1. Start with the first nodes of L1 and L2.
+2. Compare the data of both current nodes.
+3. Insert the smaller node into the result list.
+4. Move to the next node of the list from which the smaller node was selected.
+5. Repeat the process until one list becomes empty.
+6. Add all remaining nodes of the other list to the result list.
+7. Stop.
+
+RESULT:
+
+10 -> 20 -> 25 -> 30 -> 40 -> 50 -> 70 -> 80
